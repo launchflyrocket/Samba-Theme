@@ -1,0 +1,112 @@
+body {
+    background: #FFF0E6!important;
+}
+
+.wrap {
+width: 90%;
+margin: auto;
+}
+/* Navbar Import */
+.navbar-nav {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+/* Logo Import */
+.navbar-light .navbar-brand {
+color: rgba(0,0,0,.9);
+position:relative;
+}
+.navbar-light .navbar-brand {
+color: rgba(0,0,0,.9);
+font-size: 26px;
+text-transform: uppercase;
+font-weight: 800;
+}
+/* Nav Link Import */
+/* a.space {
+    margin: 0px 20px;
+} */
+.navbar-light .navbar-nav .nav-link {
+color: black!important;
+/* margin: 0px 20px; */
+}
+.navbar-light .navbar-nav .nav-link {
+color: black;
+font-weight: 500;
+font-size: 18px;
+letter-spacing: -0.5px;
+}
+/* Start Get Import */
+.start_get {
+position: relative;
+right: 0;
+display: flex;
+}
+a.phill {
+/* margin: 0px 5px; */
+}
+.start_btn {
+background: black;
+width: 141px;
+height: 43px;
+text-align: center;
+color: white!important;
+border-radius: 4px;
+font-size: 18px;
+font-weight: 500;
+}
+.start_btn:hover {
+background: blue;
+width: 141px;
+height: 43px;
+text-align: center;
+}
+a.start_btn {
+color: rgb(255, 240, 230)!important;
+}
+
+/* Login Import */
+.login {
+font-size: 18px;
+font-weight: 500;
+}
+.login:hover {
+font-size: 18px;
+font-weight: 500;
+}
+a.login{
+border-bottom: 2px solid rgba(0, 0, 0, 0);
+color: black!important;
+/* padding: 0px 0px; */
+}
+a.login:hover{
+border-bottom: 2px solid black;
+/* padding: 0px 0px; */
+
+color: black!important;
+}
+
+/* Responsives */
+@media(max-width:768px) {
+    .start_get {
+    display:none!important;
+    }
+   
+}
+@media (max-width:1000px) {
+    .navbar-light .navbar-brand {
+    color: rgba(0,0,0,.9);
+    position: absolute;
+    display: contents;
+    }
+    
+}
+@media(max-width:991px) {
+    .g {
+        display: none;
+    }
+}
