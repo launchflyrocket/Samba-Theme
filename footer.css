@@ -1,11 +1,16 @@
 .footer {
     background: black;
-    height: 200px;
+    height: 300px;
     position: relative;
     top: 24px;
+   
 }
-.center {
-
+.footer .center {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    position: relative;
+    top: 50px;
 }
 .brand_img {
     max-width: 100px;
@@ -43,29 +48,21 @@
     color: rgb(240, 191, 255);
 
 }
-
 @media (max-width:768px) {
     .footer .center {
         display: block;
     }
     .footer {
-
+        background: black;
         height: 350px;
     }
-    .gGoZ {
-        width: 90%;
-        margin: auto;
-        display: flex;
-    }
-    .gfOp {
-        width: 30%;
-    }
     .icons {
-        width: 30%;
-        display: block;
+        width: 45%;
+        display: inline-grid;
+        text-align: end;
     }
     .link {
-        width: 30%;
+        width: 50%;
         display: inline-grid;
     }
 }

@@ -1,46 +1,31 @@
-.first {
- width: 100%!important;
- height: 700px;
-}
-.text {
-
-
-}
-
-
-
-.width {
+.first_section {
     position: relative;
     top: 100px;
+}
+.first_section .center{
     display: flex;
-
-    width: 90%;
-    margin: auto;
-
-
-
-
 }
-.design_samba {
-
-}
-
-/* Text */
-.text h1 {
-    font-size: 84px;
-    font-weight: 300;
-    max-width: 400px;
-}
-.text p {
+.first_section .center .text p {
     font-size: 30px;
     font-weight: 350;
-    width: 75%;
+    max-width: 600px;
+
+}
+.sing_up {
+    display: block;
+
+}
+.sign_up_mob {
+    display: none;
+}
+.sec_first_img {
+    width: 70%;
+    margin: auto;
+    display: block;
+    background: black;
 }
 
-/* Buttons Sing Up */
-.sing_up {
-    width: 75%;
-}
+/* Buttons Import */
 .btn {
     display: inline-block;
     font-weight: 400;
@@ -79,17 +64,32 @@
     z-index: 2;
     border: 2px solid black;
 }
-.sign_up_mob {
-    display: none;
+.sign_up_mob a{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border-radius: 4px;
+    padding: 10px 10px;
+    text-decoration: none;
 }
-
 @media (max-width:768px) {
-    .width {
+    .first_section{
+        position: relative;
+        top: 10px;
+    }
+    .first_section .center {
+    display: block;
+    }
+    .sec_first_img {
+    max-width: 300px;
+    }
+    .sing_up {
+        display: none;
+     
+    }
+    .sign_up_mob {
         display: block;
     }
-    /* .form-control {
-        display: none!important;
-    } */
+    /* text import */
     .text h1 {
         font-size: 54px;
         text-align: left;
@@ -100,35 +100,5 @@
         width: 100%;
     margin: auto;
 
-    }
-    .sec_first_img {
-        max-width: 300px;
-    }
-    .sing_up {
-        display: none;
-        width: 75%;
-        margin: auto;
-    }
-    .width {
-        position: relative;
-        top: 10px;
-    }
-    .sign_up_mob {
-        display: block;
-    }
-    .sign_up_mob a{
-        background-color: rgb(0, 0, 0);
-        color: rgb(255, 255, 255);
-        border-radius: 4px;
-        padding: 10px 10px;
-        text-decoration: none;
-    }
-    
-    
-}
-@media (max-width:992px) {
-    .sing_up {
-        width: 100%;
-        position: absolute;
     }
 }
