@@ -18,6 +18,12 @@
 }
 .brand {
     width: 30%;
+    width: 30%;
+    text-align: center;
+}
+.brand i {
+    font-size: 130px;
+    color: var(--bs-indigo);
 }
 .link {
     width: 30%;
