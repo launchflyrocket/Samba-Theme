@@ -13,6 +13,8 @@
 }
 .sing_up {
     display: block;
+    width: 45%;
+    position: absolute;
 
 }
 .sign_up_mob {
@@ -76,14 +78,12 @@
         position: relative;
         top: 10px;
     }
-    .first_section .center {
-    display: block;
-    }
+    
     .sec_first_img {
     max-width: 300px;
     }
     .sing_up {
-        display: none;
+        display: none!important;
      
     }
     .sign_up_mob {
@@ -100,5 +100,22 @@
         width: 100%;
     margin: auto;
 
+    }
+}
+@media (max-width:1000px) {
+    .first_section .center {
+    display: block;
+    }
+    .sing_up {
+        display: block;
+        width: 90%;
+        margin: auto;
+        position: absolute;
+        right: 0;
+        left: 0;
+    }
+    .first_section .center .text p {
+    
+        max-width: 950px;
     }
 }

@@ -3,15 +3,25 @@ body, html {
     width: 100%;
     height: 100%;
 }
-
+.wrapper {
+    width: 100%;
+    background: white!important;
+    position: fixed;
+    z-index: 99;
+}
 .wrap {
 width: 90%;
 margin: auto;
 }
+.bg-white {
+    background-color: #fff0!important;
+}
 /* Navbar Import */
 .navbar-nav {
-    position: relative;
-    /* position: fixed; */
+  /*       width: 90%; */
+    margin: auto;
+     position: relative;  
+     /* position: fixed!important;  */ 
     display: flex;
     flex-direction: column;
     padding-left: 0;
@@ -97,6 +107,12 @@ color: black!important;
 @media(max-width:768px) {
     .start_get {
     display:none!important;
+    }
+    .wrapper {
+        position: relative;
+    }
+    nav {
+        position: relative;
     }
    
 }
