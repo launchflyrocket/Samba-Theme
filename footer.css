@@ -44,3 +44,28 @@
 
 }
 
+@media (max-width:768px) {
+    .footer .center {
+        display: block;
+    }
+    .footer {
+
+        height: 350px;
+    }
+    .gGoZ {
+        width: 90%;
+        margin: auto;
+        display: flex;
+    }
+    .gfOp {
+        width: 30%;
+    }
+    .icons {
+        width: 30%;
+        display: block;
+    }
+    .link {
+        width: 30%;
+        display: inline-grid;
+    }
+}
