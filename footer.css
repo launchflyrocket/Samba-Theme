@@ -1,0 +1,46 @@
+.footer {
+    background: black;
+    height: 200px;
+    position: relative;
+    top: 24px;
+}
+.center {
+
+}
+.brand_img {
+    max-width: 100px;
+
+}
+.brand {
+    width: 30%;
+}
+.link {
+    width: 30%;
+    display: inline-grid;
+}
+.icons {
+    width: 30%;
+    display: inline-grid;
+}
+.footer .center {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    position: relative;
+    top: 50px;
+}
+.footer .center a {
+    font-size: 21px;
+    text-decoration: none;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+
+}
+.footer .center a:hover {
+    font-size: 21px;
+    text-decoration: none;
+    font-weight: 300;
+    color: rgb(240, 191, 255);
+
+}
+

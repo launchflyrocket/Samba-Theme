@@ -8,7 +8,8 @@ margin: auto;
 }
 /* Navbar Import */
 .navbar-nav {
-    position: fixed;
+    position: relative;
+    /* position: fixed; */
     display: flex;
     flex-direction: column;
     padding-left: 0;
@@ -110,3 +111,4 @@ color: black!important;
         display: none;
     }
 }
+
