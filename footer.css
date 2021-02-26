@@ -27,11 +27,21 @@
 }
 .link {
     width: 30%;
-    display: inline-grid;
+  
+}
+.link > a{
+    width: max-content;
+display: block;
+
 }
 .icons {
     width: 30%;
     display: inline-grid;
+}
+.icons a {
+    width: max-content;
+    display: block;
+
 }
 .footer .center {
     display: flex;
@@ -54,6 +64,9 @@
     color: rgb(240, 191, 255);
 
 }
+.zOg {
+    display: contents;
+}
 @media (max-width:768px) {
     .footer .center {
         display: block;
@@ -62,13 +75,11 @@
         background: black;
         height: 350px;
     }
-    .icons {
-        width: 45%;
-        display: inline-grid;
-        text-align: end;
+    .zOg {
+        display: flex!important;
     }
     .link {
-        width: 50%;
-        display: inline-grid;
+        width: 60%;
     }
+    
 }
